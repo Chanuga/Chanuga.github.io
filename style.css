@@ -2,103 +2,53 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: rgb(192, 192, 192);
+.jumbotron{
+    margin-bottom: 0;
 }
 
-form{
-    margin: 1em;
-  }
-
-main img{
-    
-    width: 100%;
-    height: auto;
-}  
-
-article{
-    padding: 2em;
-    height: 70vw;
-}
-
-article samp {
-    font-size: 1.6vw;
-    
-}
-
-
-nav {
-    position: absolute;
-    top: 0;
-}
-
-article img{
-    width: 30%;
+nav img{
+    width: 50px;
     height: auto;
 }
 
-
-
-main {
-    color: rgb(255, 255, 255);
-    position: relative;
-    text-align: center;
+main{
+    /*margin-top: 30px;
+    padding-top: 30px;*/
+    background-color: rgb(218, 218, 218);
 }
 
-main code {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3vw;
-    color: #fff;
+.fakeimg {
+    height: 200px;
+    background: rgb(221, 221, 221);
 }
 
-main p {
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2vw;
-    color: #fff
-}
-
-main samp {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2vw;
-    color: rgb(0, 0, 0);
-}
-
-figure{
-    padding: 2em;
-    height: 116vw;
-}
-
-figure img{
-    width: 70%;
+.fakeimg1 {
+    width: 300px;
     height: auto;
-    padding: 1em;
-}
-
-figure code {
-    font-size: 2vw;
-    color: rgb(0, 1, 41);
-    padding-left: 1em;
-}
-
-aside{
-    height: 10vw;
-}
-
-aside code {
-    font-size: 2vw;
-    color: rgb(0, 1, 41);
-    /*padding-left: 1em;*/
+    background: #aaa;
 }
 
 footer{
-    padding: 1.5em;
+    margin-bottom: 0;
 }
+
+@media (min-width: 350px) {
+    nav img{
+        width: 6vw;
+        height: auto;
+    }
+
+    .fakeimg1 {
+        width: 300px;
+        height: auto;
+        background: #aaa;
+    }
+}
+
+@media (min-width: 1000px) {
+    nav img{
+        width: 3vw;
+        height: auto;
+    }
+}
+
