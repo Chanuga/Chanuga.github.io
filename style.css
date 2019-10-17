@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: black;
+}
+
 .jumbotron{
     margin-bottom: 0;
 }
