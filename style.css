@@ -15,6 +15,11 @@ body{
     height: auto;
 }
 
+.AboutMe{
+    padding-top: 9vw ;
+    padding-left: 0%;
+}
+
 main{
     /*margin-top: 30px;
     padding-top: 30px;*/
@@ -104,12 +109,24 @@ footer{
         height: auto;
         background: #aaa;
     }
+
+    .AboutMe{
+        margin-top: 0;
+        padding-top: 0; 
+        padding-left: 10px;
+    }
 }
 
 @media (min-width: 1000px) {
     nav img{
         width: 3vw;
         height: auto;
+    }
+
+    .AboutMe{
+        margin-top: 10px;
+        padding-top: 0; 
+        padding-left: 10px;
     }
 }
 
